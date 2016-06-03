@@ -3,7 +3,7 @@
 Projet: APRCL: Association des personnes retraités du cégep limoilou.
 
 Besoins:
--Informations (calendriers d’évenement, etc...)
+-Informations (calendriers d’évenement, etc...) <br>
 -Quch qui permet interaction entre les membres (style Facebook? Blogue? Forum?)
 -Convivialité (Utilisation simple des fonctionnalités)
 -Permet de s’organiser 
