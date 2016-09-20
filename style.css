@@ -1142,19 +1142,31 @@ p.logged-in-as {
 article p {
 	color: #000;
 }
-.read-more a {
-	background-color: red;
-	border: 2px solid #f76103;
+.btn.btn-default.read-more {
+  float: right;
+  border: 3px solid #f76103;
+  color: orange;
+  background-color: transparent;
+  margin-top: 10px;
 }
-/*-------------------icone--------------------------------*/
-i::before {
+a.btn.btn-default.read-more {
+ color: #999;
+ border-radius: 0px; 
+}
+.btn.btn-default.read-more:hover {
+  color: #FFF;
+  background-color: #F76103;
+  border: 3px solid #999;
+  border-radius: 0px;
+}
+i::before  {
 	color: #f76103;
 }
-/*-------------------bouton--------------------------------*/
-.btn {color:#f76103;}
-/*------------------hyperlien--------------------------------*/
-a{
-color: #f76103;
+i.fa-chevron-right::before {
+	color: #999;
+}
+i.fa-chevron-right::before:hover {
+	color: #fff;
 }
 /*---------------------------------------------------------------------------------------------*/
 /*---------------------------------------------calendrier-------------------------------------*/
