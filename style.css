@@ -811,6 +811,15 @@ p.logged-in-as {
 #footer-area a {
   color: #ccc;
 }
+
+#footer-top{
+    height :340px;
+    width :auto;	
+    border-top : solid #EC663B 2px;
+    border-bottom : solid #999999 2px;
+    background-color : #3C3C3B;
+}
+
 #footer-area .footer-widget-area {
   padding: 40px 0 20px 0;
   overflow: hidden;
@@ -855,6 +864,11 @@ p.logged-in-as {
   float: right;
   text-align: right;
 }
+
+#copy{
+    font-size: 12px;
+}
+
 #colophon {
   background-color: #1F1F1F;
   padding: 10px 0;
